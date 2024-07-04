@@ -1,0 +1,62 @@
+.men {
+    height: 65vh;
+    background: linear-gradient(180deg, #fcd7cf, #e1ffea22 60%);
+    display: flex;
+}
+
+.men-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+
+.men-left h2 {
+    color: #090909;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.men-left p {
+    color: #171717;
+    font-size: 100px;
+    font-weight: 700;
+    display: flex;
+}
+
+.men-hand-icon p {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.men-hand-icon img {
+    width: 105px;
+}
+
+.men-latest-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: #ff4141;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.men-right {
+    padding-top: 300px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 360px;
+}
