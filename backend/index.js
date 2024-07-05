@@ -167,7 +167,10 @@ app.post("/signup", async (req, res) => {
       id: user.id,
     },
   };
-  const token = jwt.sign(data, "secretkey");
+  const token = jwt.sign(data, "secretkey", {
+    expiresIn: 3600,
+  });
+
   res.json({ success: true, token });
 });
 
